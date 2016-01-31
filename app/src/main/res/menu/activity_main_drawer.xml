@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_proionta" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Προϊόντα" />
+        <item android:id="@+id/nav_Stoixeia_syneterismou" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Στοιχεία Συνεταιρισμού" />
+        <item android:id="@+id/nav_Ambelones" android:icon="@android:drawable/ic_menu_search"
+            android:title="Αμπελώνες"/>
+    </group>
+
+    <item android:title="Στοιχεία Προγραμματιστών">
+        <menu>
+            <item android:id="@+id/nav_faq" android:icon="@android:drawable/ic_menu_share"
+                android:title="FAQ" />
+        </menu>
+    </item>
+
+</menu>
