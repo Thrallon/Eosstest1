@@ -80,6 +80,8 @@ public class MainActivity extends AppCompatActivity
             Intent intent2 = new Intent(getApplicationContext(),Main2Activity.class);
             startActivity(intent2);
         } else if (id == R.id.nav_Stoixeia_syneterismou) {
+            Intent intent4 = new Intent(getApplicationContext(),Activity_Stoixeia.class);
+            startActivity(intent4);
 
         } else if (id == R.id.nav_Ambelones) {
 
