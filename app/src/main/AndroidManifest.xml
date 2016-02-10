@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.thrallon.eosstest1" >
+    package="com.example.thrallon.eosstest1">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,12 +20,78 @@
         </activity>
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings" >
-        </activity>
-        <activity android:name=".Main2Activity" >
-        </activity>
-        <activity android:name=".Activity_Stoixeia" >
-        </activity>
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".Activity_Mproionta" />
+        <activity android:name=".Activity_Stoixeia" />
+        <activity android:name=".Activity_Mproionta2" />
+        <activity
+            android:name=".Proion1"
+            android:label="@string/title_activity_proion_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion2"
+            android:label="@string/title_activity_proion2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion3"
+            android:label="@string/title_activity_proion3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion4"
+            android:label="@string/title_activity_proion4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion5"
+            android:label="@string/title_activity_proion5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion6"
+            android:label="@string/title_activity_proion6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion7"
+            android:label="@string/title_activity_proion7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion8"
+            android:label="@string/title_activity_proion8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion9"
+            android:label="@string/title_activity_proion9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion10"
+            android:label="@string/title_activity_proion10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion11"
+            android:label="@string/title_activity_proion11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Proion12"
+            android:label="@string/title_activity_proion12"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Krasia"
+            android:label="@string/title_activity_krasia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".galeryteroir"
+            android:label="@string/title_activity_galeryteroir"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main22Activity"
+            android:label="@string/title_activity_main22"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivitySwap"
+            android:label="@string/title_activity_activity_swap"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

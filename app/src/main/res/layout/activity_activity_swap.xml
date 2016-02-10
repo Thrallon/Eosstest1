@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    viewPager = (ViewPager)findViewById(R.id.view_pager);
+    adapter = new CustomSwipeAdapter(this);
+    viewPager.setAdapter(adapter);
+
+    <TextView
+        android:id="@+id/image_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+
+        />
+
+
+    <ImageView
+
+        android:layout_marginTop="25dp"
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

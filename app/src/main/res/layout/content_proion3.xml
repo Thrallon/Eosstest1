@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Proion3"
+    tools:showIn="@layout/activity_proion_3">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Το Nectar είναι, ίσως το πιο ιστορικό κρασί της Ένωσης και ένα κρασί το οποίο πολλοί έχουν μιμηθεί, αλλά κανείς δεν έχει κατορθώσει να αναπαράξει! Το χρώμα του είναι βαθύ κεχριμπαρένιο, με όμορφες πορτοκαλί ανταύγειες. Στη μύτη επικρατούν αρώματα εξέλιξης (παλαίωσης), με τις σταφίδες και τα παλιά κερωμένα έπιπλα σε πρώτο πλάνο. Στο στόμα επιφυλάσσει μια αναπάντεχη φρεσκάδα, που μπορεί να του εξασφαλίσει πρωταγωνιστικό ρόλο στο τραπέζι. Σε συνδυασμό με τα ευγενή αρώματα του καρυδιού συντίθεται ένα αρμονικό και ισχυρό σύνολο, με ιδιαίτερα μακρά επίγευση που θυμίζει αρώματα καπνού, λιβανιού και αμυγδαλωτών. Πρόκειται για ένα κρασί από υπερώριμο, λιαστό σταφύλι, που παλαιώνει για τρία χρόνια σε δρύινα βαρέλια. Μπορεί άνετα να συνοδεύσει πληθωρικά γλυκόξινα φαγητά (π.χ. αγριογούρουνο με κυδώνι, πάπια με πορτοκάλι κ.ά.) και φυσικά, επιδόρπια, όπως είναι ο μπακλαβάς και η καρυδόπιτα."
+        android:id="@+id/Nectar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

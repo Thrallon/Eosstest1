@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Proion4"
+    tools:showIn="@layout/activity_proion_4">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Το πιο γνωστό ανά την υφήλιο Samos, το Grand Cru προέρχεται από επιλεγμένα αμπελοτόπια και είναι ένα κλασικό Vin Doux Naturel. Το χρώμα του μοιάζει με αυτό του τοπαζιού, ενώ στη μύτη το κρασί εκφράζει με απόλυτη επιτυχία τα χαρακτηριστικά αρώματα του μοσχάτου. Το ίδιο συμβαίνει και στο στόμα, που είναι φρέσκο και ισορροπημένα γλυκό, σε σύγκριση με την οξύτητά του. Είναι ευχάριστο, μα πάνω απ’ όλα ευκολόπιοτο. Παράγεται από καλά ωριμασμένα σταφύλια επιλεγμένων, ημιορεινών αμπελώνων και εκφράζει τόσο την ιδιαίτερη και χαρακτηριστική ποικιλία Μοσχάτο, όσο και τον οινοπαραγωγικό τόπο της Σάμου. Ταιριάζει με ελαφρά γλυκά φρούτων, αλλά προσφέρεται και για πειραματισμούς με «αλμυρά» πιάτα, όπως αυτά με κρέμα γάλακτος και κίτρινα τυριά, με μπεσαμέλ ή ακόμα και κοτόπουλο σούβλας, για το οποίο το κρασί αυτό είναι ένας συνοδός–αποκάλυψη!"
+        android:id="@+id/Grand_Chu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.thrallon.eosstest1.Proion2"
+    tools:showIn="@layout/activity_proion2">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Σιγά-σιγά, το Anthemis έχει εξελιχθεί σε ένα από τα πιο σπουδαία κρασιά της Ένωσης. Στην όψη έχουμε ένα εντυπωσιακό κρασί με βαθύ πορτοκαλί χρώμα και ανταύγειες σε απόχρωση χαλκού, που μαρτυρούν τη βαθιά παλαίωσή του. Αρώματα μελιού, κερήθρας μελιού, καραμέλας βουτύρου, γλυκών κουταλιού, κερασιών σε αλκοόλ κ.ά., σε φόντο κακάο και σοκολάτας, συνθέτουν ένα ιδιαίτερα πολύπλοκο και πυκνό αρωματικό προφίλ, χτισμένο σε πολλά επίπεδα. Στο στόμα, η θαυμάσια ισορροπία του Anthemis κατορθώνει να διατηρεί σχεδόν ανέπαφη την πρωτογενή φρεσκάδα του με τα τριτογενή αρώματα της παλαίωσης να παίζουν πρώτο βιολί. Τα ευγενή αρώματα του μοσχάτου συνδυάζονται μοναδικά με εκείνα των αποξηραμένων φρούτων και των γοητευτικών αρωμάτων καπνού και της σοκολάτας, για να δώσουν ένα πραγματικά ανεπανάληπτο κρασί. Απαιτεί συντρόφους από το χώρο της υψηλής ζαχαροπλαστικής, ενώ σκέτο, μετά από το τέλος ενός δείπνου, θα συνόδευε με άνεση ένα ελαφρύ πούρο."
+        android:id="@+id/Anthemis"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

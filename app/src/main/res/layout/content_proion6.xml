@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.thrallon.eosstest1.Proion6"
+    tools:showIn="@layout/activity_proion_6">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Το Vin Doux, που ανήκει στην κατηγορία των Vins de Liqueurs, είναι το πιο δημοφιλές κρασί της Σάμου! Τόσο η όψη, όσο και η οσμή του είναι ιδιαίτερα ελκυστική, με ανοιχτόχρωμο χρυσαφί χρώμα και αρώματα μαρμελάδας βερίκοκου, υπερβολικά ώριμου πεπονιού και νύξεις καραμέλας βουτύρου να δεσπόζουν. Η πρώτη επαφή με το στόμα είναι εκρηκτική, με μια πανδαισία αρωμάτων γεύσης, που περιστρέφεται γύρω από το μοσχάτο σταφύλι, εκφρασμένη με εξαιρετικά φρέσκο τρόπο. Το Vin Doux είναι ένα κρασί που διατηρεί όλο το πρωτογενές άρωμα του μοσχάτου και σε παροτρύνει να το απολαύσεις λαίμαργα, με μεγάλες γουλιές. Είναι ο απόλυτος συνοδός του ώριμου πεπονιού, αλλά προσφέρεται για πολλούς συνδυασμούς φαγητών ή γλυκών."
+        android:id="@+id/Vin_Doux"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

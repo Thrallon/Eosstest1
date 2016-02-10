@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Proion1"
+    tools:showIn="@layout/activity_proion_1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Η Ένωση έχει αρκετό γλυκό κρασί παλαιότερων εσοδειών για να γεμίσει λίγες σχετικά φιάλες. Το Nectar 1975 είναι ένα από αυτά και αποτελεί «υγρό» κομμάτι της ελληνικής οινικής ιστορίας. Κυκλοφόρησε στην αγορά και παρά τις δεκαετίες του είναι εξαιρετικά καθαρό και ζωντανό, δείχνοντας το φοβερό δυναμικό παλαίωσης των μοσχάτων του νησιού. Αρκετά σκουρόχρωμο, με την πατίνα του χρόνου, είναι εξαιρετικά πολύπλοκο αρωματικά, θυμίζει σταφίδα, βερίκοκο, δαμάσκηνο, πορτοκάλι, καθώς και κανέλα, καραμέλα βουτύρου και νότες καφέ. Η οξύτητα του κρασιού παραμένει αισθητή στο γλυκό και έτσι ισορροπημένο στόμα, που κατορθώνει να παραμένει φινετσάτο, παρά τα χρόνια του. Διακρίνονται αρώματα φρούτων και ξηρών καρπών, ενώ η μακρά επίγευση βεβαιώνει για την ποιότητα αυτού του... «ελιξιρίου». Οι οινόφιλοι δύσκολα θα το θυσίαζαν με κάτι φαγώσιμο, πίνοντάς το σκέτο. Συνδυάζεται όμως θαυμάσια με κρεμώδη επιδόρπια, επιδόρπια με άρωμα πορτοκαλιού κ.ά."
+        android:id="@+id/Nektar_1975"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
