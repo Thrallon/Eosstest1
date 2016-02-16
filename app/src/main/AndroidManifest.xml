@@ -21,6 +21,8 @@
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
+
+
         <activity android:name=".Activity_Mproionta" />
         <activity android:name=".Activity_Stoixeia" />
         <activity android:name=".Activity_Mproionta2" />
@@ -76,14 +78,8 @@
             android:name=".Krasia"
             android:label="@string/title_activity_krasia"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".galeryteroir"
-            android:label="@string/title_activity_galeryteroir"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".DetailsActivity"
-            android:label="@string/title_activity_details"
-            android:theme="@style/AppTheme.NoActionBar" />
+
+
         <activity
             android:name=".Main22Activity"
             android:label="@string/title_activity_main22"
@@ -91,7 +87,7 @@
         <activity
             android:name=".ActivitySwap"
             android:label="@string/title_activity_activity_swap"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

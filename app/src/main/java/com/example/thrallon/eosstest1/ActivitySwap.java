@@ -16,9 +16,9 @@ public class ActivitySwap extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activity_swap);
 
-       // viewPager = (ViewPager)findViewById(R.id.view_pager);
-       // adapter = new CustomSwipeAdapter(this);
-      //  viewPager.setAdapter(adapter);
+        viewPager = (ViewPager)findViewById(R.id.view_pager);
+        adapter = new CustomSwipeAdapter(this);
+        viewPager.setAdapter(adapter);
 
     }
 
